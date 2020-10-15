@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(219, 135, 57);
+    font-family: Rubik, Arial;
+  }
+  
+  form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+  
+  form hr {
+    width: 17%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #nachos {
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .macho{
+    text-align: center;
+  }
+  
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    height: 95vh;
+    background-color: rgba(255, 197, 170, 0.9);
+    border-radius: 40px;
+  }
+  
+  #logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+  
+  
+  .topping label, .spicyness label {
+    margin-right: 25px;
+  }
+  

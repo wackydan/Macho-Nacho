@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeah</title>
+    <link rel="stylesheet" href="./css/machonacho.css">
+</head>
+
+<body>
+    <section id="overlay">
+        <img src="./img/logo.png" alt="logo" id="logo">
+        <hr>
+
+        <form action="submission.html" method="POST">
+
+            <h1>Macho Nacho Delivery</h1>
+
+            <!--Customer Info-->
+
+            <section class="info">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+                <label for="adress">Address</label>
+                <input type="text" name="adress" id="adress" required>
+            </section>
+            <hr>
+
+
+            <!--Amount-->
+
+            <section class="amount">
+                <label for="amount">How many nachos do you want to order?</label>
+                <input type="number" name="amount" id="amount" value="1">
+            </section>
+            <hr>
+
+
+            <!--Spicyness selection-->
+
+            <section class="spicyness">
+                <label for="spicyness">How spicy do you Want your dips to be?</label>
+                <br>
+                <span>Non-spicy</span>
+                <input type="range" name="Spicyness" id="spicyness" value="3" min="0" max="5">
+                <span>Fire Breathing</span>
+            </section>
+            <hr>
+
+
+            <!--topping selection-->
+
+            <span>Which toppings would you like?</span>
+            <section class="topping">
+                <input type="checkbox" name="topping" id="jalapeno" value="">
+                <label for="jalapeno">Jalapeno</label>
+                <input type="checkbox" name="topping" id="salsa" value="">
+                <label for="salsa">Salsa</label>
+                <input type="checkbox" name="topping" id="grind-meat" value="">
+                <label for="grind-meat">Grind Meat</label>
+                <input type="checkbox" name="topping" id="bell-pepper" value="">
+                <label for="bell-pepper">Bell Pepper</label>
+                <input type="checkbox" name="topping" id="bbq-cube" value="">
+                <label for="bbq-cube">BBQ Cubes</label>
+            </section>
+            <hr>
+
+
+            <!--Extra Dips-->
+
+            <section class="dips">
+                <span>Would you like extra dips</span>
+                <br>
+                <input type="radio" name="dips" id="yes" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" name="dips" id="no" value="no">
+                <label for="no">No</label>
+            </section>
+            <hr>
+
+
+            <!--chip type-->
+
+            <section class="chip-type">
+                <label for="chip">Select your chip type</label>
+                <select name="chip" id="chip">
+                    <option value="doritos">Doritos</option>
+                    <option value="flaming hot cheetos">Flaming Hot Cheetos</option>
+                    <option value="bue Nachos">Bue Nachos</option>
+                    <option value="ruffles">Ruffles</option>
+                    <option value="regular Nacho Chip">Regular</option>
+                </select>
+            </section>
+            <hr>
+
+
+            <!--dip selection-->
+
+            <section class="dip-selection">
+                <label for="dip-type">Select your dip</label>
+                <input list="dips" name="dip-type" id="dip-type">
+                <datalist id="dips">
+                    <option value="Blue dips"></option>
+                    <option value="Regular"></option>
+                    <option value="Spicy"></option>
+                </datalist>
+            </section>
+            <hr>
+
+
+            <!--requests-->
+
+            <section class="requests">
+                <label for="extras">Do you have any extra requests?</label>
+                <br>
+                <textarea id="extras" name="extras" rows="3" cols="40"></textarea>
+            </section>
+            <hr>
+
+
+            <!--submit-->
+
+            <section class="submit">
+                <input type="submit" value="submit">
+            </section>
+        </form>
+    </section>
+</body>
+
+</html>
